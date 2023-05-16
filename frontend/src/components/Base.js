@@ -1,4 +1,4 @@
-import CustomNavbar from "./CustomNavbar";
+import CustomNavbar from "./Navbar/CustomNavbar";
 
 const Base=({title="Welcome to My Blogs", children})=>{
 

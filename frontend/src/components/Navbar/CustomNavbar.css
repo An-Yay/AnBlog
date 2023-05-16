@@ -1,0 +1,15 @@
+.custom-navbar {
+      opacity: 0.8;
+      border-radius: 0 0 10px 10px;
+      position: sticky;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 999;
+
+}
+
+.custom-navbar a.nav-link:hover {
+      background-color: #555;
+      color: #fff;
+}

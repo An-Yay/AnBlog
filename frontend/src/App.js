@@ -8,7 +8,8 @@ import Home from './pages/Home';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
 import About from './pages/About';
-import CustomNavbar from './components/CustomNavbar';
+import Services from './pages/Services';
+import CustomNavbar from './components/Navbar/CustomNavbar';
 
 
 
@@ -22,6 +23,7 @@ function App() {
         <Route path ="/login" element={<Login/>} />
         <Route path ="/signup" element={<Signup/>} />
         <Route path ="/about" element={<About/>} />  
+        <Route path="/service" element={<Services/>}/>
   
         
 
